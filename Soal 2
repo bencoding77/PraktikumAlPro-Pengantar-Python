@@ -1,0 +1,28 @@
+harga1 = 650000
+harga2 = 685000
+emas = 25
+
+emas_lama = 25 * harga1
+emas_baru = 25 * harga2
+
+keuntungan_rupiah = emas_baru - emas_lama
+keuntungan_persen = (keuntungan_rupiah/emas_baru) * 100
+x = int(round(keuntungan_persen))
+
+
+print ("Keuntungan Gerard dalam Rupiah : Rp. ", keuntungan_rupiah)
+print ("Keuntungan Gerard dalam Persen : ", x, "%")
+
+emas2 = 40
+harga3 = 715000
+
+emas_nambah = 15 * 685000
+total_hargaemas = emas_lama + emas_nambah
+emas_akhir = 40 * 715000
+
+keuntungan_rupiah2 = emas_akhir - total_hargaemas
+keuntungan_persen2 = (keuntungan_rupiah2/emas_akhir) * 100
+y = int(round(keuntungan_persen2))
+
+print ("Total Keuntungan Gerard dalam Rupiah : Rp. ", keuntungan_rupiah2)
+print ("Total Keuntungan Gerard dalam Persen : ", y, "%")
